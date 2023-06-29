@@ -1,0 +1,11 @@
+C:\projects\ARAMAK\target\debug\deps\serde_path_to_error-df09ebce7e8ce4ca.rmeta: C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\lib.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\de.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\path.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\ser.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\wrap.rs
+
+C:\projects\ARAMAK\target\debug\deps\libserde_path_to_error-df09ebce7e8ce4ca.rlib: C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\lib.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\de.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\path.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\ser.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\wrap.rs
+
+C:\projects\ARAMAK\target\debug\deps\serde_path_to_error-df09ebce7e8ce4ca.d: C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\lib.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\de.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\path.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\ser.rs C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\wrap.rs
+
+C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\lib.rs:
+C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\de.rs:
+C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\path.rs:
+C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\ser.rs:
+C:\Users\aaron\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_path_to_error-0.1.11\src\wrap.rs:

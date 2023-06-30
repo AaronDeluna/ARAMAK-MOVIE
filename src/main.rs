@@ -9,9 +9,38 @@ use std::path::PathBuf;
 #[allow(unused_imports)]
 use tokio::io::split;
 
+// connect Html to server
+
+async fn home() -> Html<String> {
+    let html = fs::read_to_string("src/login.html").unwrap();
+    Html(html)
+}
+
+
+
+
+//server connection
+
+
+
+
+fn server_config () {
+    #[tokio::main]
+    async fn main() {
+        let app = Router::new().route("/", get(home));
+
+        axum::Server::bind(&"127.0.0.1:3000".parse().unwrap())
+            .serve(app.into_make_service())
+            .await
+            .unwrap();
+        println!("Server is running");
+    }
+}
 
 
 //database configuration
+
+
 
 
 
@@ -19,7 +48,7 @@ async fn manage_database() -> Result<(), Error> {
     // Параметры подключения к базе данных
     let db_name = "AramakMuvi";
     let user = "postgres";
-    let password = "halw8301";
+    let password = "postgres";
     let host = "127.0.0.1";
     let port = "3000";
 
@@ -66,29 +95,5 @@ async fn manage_database() -> Result<(), Error> {
 async fn main() {
     if let Err(e) = manage_database().await {
         eprintln!("Ошибка при работе с базой данных: {}", e);
-    }
-}
-
-
-
-//server connection
-
-
-
-async fn home() -> Html<String> {
-    let html = fs::read_to_string("src/login.html").unwrap();
-    Html(html)
-}
-
-fn server_config () {
-    #[tokio::main]
-    async fn main() {
-        let app = Router::new().route("/", get(home));
-
-        axum::Server::bind(&"127.0.0.1:3000".parse().unwrap())
-            .serve(app.into_make_service())
-            .await
-            .unwrap();
-        println!("Server is running");
     }
 }
